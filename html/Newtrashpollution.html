@@ -1,0 +1,232 @@
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("../images/Trashpollutionheader.jpg");
+  min-height: 100%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+
+.fa-trash,.fa-check,.fa-globe {font-size:200px}
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="../html/NewHome1.html" class="w3-bar-item w3-button w3-wide">Home</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      
+      <a href="../html/Newoilspills.html" class="w3-bar-item w3-button"></i> Oil Spills</a>
+      <a href="../html/Newoverfishing.html" class="w3-bar-item w3-button"></i> Overfishing</a>
+      <a href="../html/Newcoralbleaching.html" class="w3-bar-item w3-button"></i> Coral Bleaching</a>
+      <a href="../html/Newtrashpollution.html" class="w3-bar-item w3-button"></i> Trash Pollution</a>
+    </div>
+   
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </div>
+  
+  <!-- Sidebar on small screens when clicking the menu icon -->
+  <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+    <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+    <a href="../html/NewHome1.html" onclick="w3_close()" class="w3-bar-item w3-button">Home</a>
+    <a href="../html/Newoilspills.html" onclick="w3_close()" class="w3-bar-item w3-button">Oil Spills</a>
+    <a href="../html/Newoverfishing.html" onclick="w3_close()" class="w3-bar-item w3-button">Overfishing</a>
+    <a href="../html/Newcoralbleaching.html" onclick="w3_close()" class="w3-bar-item w3-button">Coral Bleaching</a>
+    <a href="../html/Newtrashpollution.html" onclick="w3_close()" class="w3-bar-item w3-button">Trash Pollution</a>
+  </nav>
+
+
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+    <div class="w3-display-left w3-text-white" style="padding:48px">
+      <span class="w3-jumbo w3-hide-small">Trash Pollution</span><br>
+      <span class="w3-xxlarge w3-hide-large w3-hide-medium">Trash Pollution</span><br>
+      <span class="w3-large">Learn more about Trash Pollution with the information below</span>
+      <p><a href="#firstdiv" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Learn more and start today</a></p>
+    </div> 
+   
+  </header>
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container" id="firstdiv">
+    <div class="w3-content">
+      <div class="w3-third w3-center">
+        <i class="fa fa-globe w3-padding-64 w3-text-black w3-margin-right"></i>
+      </div>
+  
+      <div class="w3-twothird"> 
+        <h1>What is Trash Pollution</h1>
+        <h5 class="w3-padding-32"> The majority of trash pollution ends up in the Pacific Ocean which then slowly gets pushed by currents into the great pacific Garbage Patch. The Great Pacific Garbage Patch is a collection of man-made rubbish which has become marine debris. Marine debris is the rubbish and garbage that ends up in the ocean, seas and other bodies of water due to people dumping it into the ocean/rivers or just the wind pushing small objects into our waterways which then end up in the pacific ocean.
+            </h5>
+  
+       
+      </div>
+    </div>
+  </div>
+  
+  
+  
+  <div class="w3-container w3-center">
+    <hr>
+    <h3>Images about Trash Pullution</h3>
+  </div>
+  
+  <div class="w3-row-padding"> 
+  
+  <div class="w3-third">
+  <div class="w3-card">
+    <img src="../images/trashimage1.jpg" alt="Car" style="width:100% ; height:310px">
+    <div class="w3-container">
+    <p>Beach Covered in trash</p>
+    </div>
+  </div>
+  </div>
+  
+  <div class="w3-third">
+  <div class="w3-card-4">
+    <img src="../images/trashimage2.jpeg" alt="Car" style="width:100%; height:310px">
+    <div class="w3-container">
+    <p>Part of the Garbage Patch</p>
+    </div>
+  </div>
+  </div>
+  
+  <div class="w3-third">
+  <div class="w3-card-4">
+    <img src="../images/trashimage3.jpeg" alt="Car" style="width:100%; height:310px">
+    <div class="w3-container">
+    <p>Ocean Cleanup Working</p>
+    </div>
+  </div>
+  </div>
+  </div>
+  
+  
+  
+  <br>
+  <br>
+
+<!-- Promo Section "Fact" -->
+<div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
+    <h1>FUN FACT:
+    </h1>
+    <h3>surface area of the patch is 1.6 Million square kilometers which equates to three times the size of France</h3>
+  </div>
+
+
+<!-- Second Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container" id="about">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>Problems</h1>
+      <h5 class="w3-padding-32">The reason for this garbage patch being so bad for the environment is that it is destroying marine life and polluting the water which corrupts our ecosystems within the ocean and therefore affects our fishing which could cause starvation among communities that depend on the ocean for their source of food. Another reason is the effects it has on the sea life, this is because they might accidentally consume some of this microplastic which will slowly build up in their stomach untill they can't fit any real food in their stomach causing them to die of starvation.</h5>
+
+      <p class="w3-text-grey">The reason cleaning the patch is nearly impossible is because of how big the patch actually is, the surface area of the patch is 1.6 Million square kilometers which equates to three times the size of France, this 1.6 Million square kilometers only stands for the surface of the garbage patch and estimates that this is only 30% of all the marine debris in the patch because 70% of all marine debris is estimated to actually sink to the ocean floor making it nearly inaccessible to clear considering that the pacific ocean on average, is 4,000m deep. Because all the rubbish is so deep, organizations will have to invent new ways to clean the marine debris underwater.
+    </p>
+    </div>
+
+    <div class="w3-third w3-center">
+      <i class="fa fa-trash w3-padding-64 w3-text-black"></i>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+<!-- Third Grid -->
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-third w3-center">
+      <i class="fa fa-check w3-padding-64 w3-text-black w3-margin-right"></i>
+    </div>
+
+    <div class="w3-twothird">
+      <h1>Solutions</h1>
+      <h5 class="w3-padding-32">As I mentioned before, there are many organizations attempting to clean this part of the ocean, the most promising attempt so far is The Ocean Cleanup which is aiming to clean up the whole garbage patch, this organization is aiming to do this by using a huge net that is 600m Long which will pull a huge net collecting all the marine debris on the surface of the ocean, this plastic is funnelled into the middle where it is stored until the ships are ready to bring it aboard to sort through then recycle. Every 5 years, a fleet of 60 ships constantly working will clear 50% of the garbage patch, the amount of garbage will decrease every 5 years so the machines will be cleaning up less and less rubbish until the patch is clear.</h5>
+
+      <p class="w3-text-grey">The reason for this organization wanting to help is because they want a better future for themselves and their kids, this operation will only clean up the surface of the garbage patch which is approximately only 30% of all the marine debris contained within the Garbage Patch, this means that there is still a further 70% contained underwater. Since their solution can only clean up the surface of the ocean, they will need to come up with a new way to clear the deeper layers of this ocean.</p>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+  <!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+    <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w5-section">
+    <a href="https://www.facebook.com/TheOceanCleanup" a><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+    <a href="https://www.instagram.com/explore/tags/pacifcocean/" a><i class="fa fa-instagram w3-hover-opacity"></i> </a>
+    <a href="https://twitter.com/ThePacificOcean" a><i class="fa fa-twitter w3-hover-opacity"></i></a>
+  </div>
+  
+
+</footer>
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+
+</body>
+</html>

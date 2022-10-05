@@ -1,0 +1,295 @@
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("../images/homebackground.jpg");
+  min-height: 100%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="../html/NewHome1.html" class="w3-bar-item w3-button w3-wide">Home</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+     
+      <a href="../html/Newoilspills.html" class="w3-bar-item w3-button"></i> Oil Spills</a>
+      <a href="../html/Newoverfishing.html" class="w3-bar-item w3-button"></i> Overfishing</a>
+      <a href="../html/Newcoralbleaching.html" class="w3-bar-item w3-button"></i> Coral Bleaching</a>
+      <a href="../html/Newtrashpollution.html" class="w3-bar-item w3-button"></i> Trash Pollution</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="../html/NewHome1.html" onclick="w3_close()" class="w3-bar-item w3-button">Home</a>
+  <a href="../html/Newoilspills.html" onclick="w3_close()" class="w3-bar-item w3-button">Oil Spills</a>
+  <a href="../html/Newoverfishing.html" onclick="w3_close()" class="w3-bar-item w3-button">Overfishing</a>
+  <a href="../html/Newcoralbleaching.html" onclick="w3_close()" class="w3-bar-item w3-button">Coral Bleaching</a>
+  <a href="../html/Newtrashpollution.html" onclick="w3_close()" class="w3-bar-item w3-button">Trash Pollution</a>
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-left w3-text-white" style="padding:48px">
+    <span class="w3-jumbo w3-hide-small">Pacific Ocean </span><br>
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium">Pacific Ocean </span><br>
+    <span class="w3-large">How can we help out?</span>
+    <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Learn more and start today</a></p>
+  </div> 
+ 
+  <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
+  <p>By Tom, Finn & Aaron</p>
+  </div>
+
+
+</header>
+
+<!-- About Section -->
+<div class="w3-container" style="padding:128px 16px" id="about">
+  <h3 class="w3-center">ABOUT THE WEBSITE</h3>
+  <p class="w3-center w3-large">Key features of this website and our values</p>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+    <div class="w3-quarter">
+      <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
+      <p class="w3-large">Responsive</p>
+      <p>This Website was made to suit the needs of users and to help display this important infomation about the problems our lovely ocean faces today</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Passion</p>
+      <p>Our Team truely cares about our Ocean which is why we made this website. We want this information to be spread among community to better help everyones knowledge about what is going on.</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Design</p>
+      <p>We hope the design of this website clearly shows the major problems our ocean faces today and how we can fix them as a whole.</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Support</p>
+      <p>There are already many companies out there trying to fix these many problems, some of these helpful companies will be outlined below.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Promo Section "Statistics" -->
+<div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">14+</span>
+    <br>Companies Helping
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">60+</span>
+    <br>Organizations Helping
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">100,000</span>
+    <br>Kg Cleaned 
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">100,000</span>
+    <br>People Helping
+  </div>
+</div>
+
+
+<!-- Team Section -->
+<div class="w3-container" style="padding:128px 16px" style="color:grey" id="team">
+  <h3 class="w3-center">Helping Companies</h3>
+  <p class="w3-center w3-large">The Organizations and companies who are truely trying to help</p>
+  <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        
+        <div class="w3-container">
+          <h3>World Wild Life</h3>
+          <p class="w3-opacity">Info Below</p>
+          <p>As the world's leading conservation organization, World Wildlife Fund works in nearly 100 countries to tackle the most pressing issues at the intersection of nature, people, and climate.</p>
+          <p><a href="https://www.worldwildlife.org/" class="w3-button w3-light-grey w3-block"> <i class="fa fa-envelope"></i> Website</button></a></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        
+        <div class="w3-container">
+          <h3>Intergovernmental Panel</h3>
+          <p class="w3-opacity">Info Below</p>
+          <p>The Intergovernmental Panel on Climate Change (IPCC) is the United Nations body for assessing the science related to climate change. The IPCC is divided into three Working Groups and a Task Force.</p>
+          <p><a href="https://www.ipcc.ch/" class="w3-button w3-light-grey w3-block"> <i class="fa fa-envelope"></i> Website</button></a></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        
+        <div class="w3-container">
+          <h3>United Nations</h3>
+          <p class="w3-opacity">Info Below</p>
+          <p>The United Nations is an international organization founded in 1945. Currently made up of 193 Member States. The UN has evolved over the years to keep pace with a rapidly changing world.</p>
+          <p><a href="https://www.un.org/en/" class="w3-button w3-light-grey w3-block"> <i class="fa fa-envelope"></i> Website</button></a></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+   
+        <div class="w3-container">
+          <h3>Climate Net Work</h3>
+          <p class="w3-opacity">Info Below</p>
+          <p>Climate Action Network (CAN) is a global network of more than 1,800 civil society organisations in over 130 countries driving collective and sustainable action to fight the climate crisis</p>
+          <p><a href="https://climatenetwork.org/" class="w3-button w3-light-grey w3-block"> <i class="fa fa-envelope"></i> Website</button></a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Skills Section -->
+<div class="w3-container w3-light-grey w3-padding-64">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3>Fixing Problems.</h3>
+      <p>Overall, these are the stats so far on the impact of these organization, this is the impact they have had to trying to help the enviroment.</p>
+      <p>These stats are calculated from all the companies and organizations helping to restore the ocean.</p>
+    </div>
+    <div class="w3-col m6">
+      <p class="w3-wide"><i class="fa fa-camera w3-margin-right"></i>Ocean Pollution Cleared</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:25%">25%</div>
+      </div>
+      <p class="w3-wide"><i class="fa fa-desktop w3-margin-right"></i>Oil Spills Cleaned</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:20%">20%</div>
+      </div>
+      <p class="w3-wide"><i class="fa fa-photo w3-margin-right"></i>Coral Bleaching Cured</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:15%">15%</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+<!-- Contact Container -->
+<div class="w3-container w3-padding-64 w3-theme-l5" id="contact">
+  <div class="w3-row">
+    <div class="w3-col m5">
+    <div class="w3-padding-16"><span class="w3-xlarge w3-border-teal w3-bottombar">Contact Us</span></div>
+      
+      <p><i class="fa fa-map-marker w3-text-teal w3-xlarge"></i>  Wellington, NZ</p>
+      <p><i class="fa fa-phone w3-text-teal w3-xlarge"></i>  +64 021 275 0932</p>
+      <p><i class="fa fa-envelope-o w3-text-teal w3-xlarge"></i>  tohunt@my.rongotai.school.nz</p>
+    </div>
+    <div class="w3-col m7">
+      <form class="w3-container w3-card-4 w3-padding-16 w3-white" action="/action_page.php" target="_blank">
+      <div class="w3-section">      
+        <label>Name</label>
+        <input class="w3-input" type="text" name="Name" required>
+      </div>
+      <div class="w3-section">      
+        <label>Email</label>
+        <input class="w3-input" type="text" name="Email" required>
+      </div>
+      <div class="w3-section">      
+        <label>Message</label>
+        <input class="w3-input" type="text" name="Message" required>
+      </div>  
+      <input class="w3-check" type="checkbox" checked name="Like">
+      <label>Cool Website!</label>
+      <button type="submit" class="w3-button w3-right w3-theme">Send</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w5-section">
+    <a href="https://www.facebook.com/TheOceanCleanup" a><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+    <a href="https://www.instagram.com/explore/tags/pacifcocean/" a><i class="fa fa-instagram w3-hover-opacity"></i> </a>
+    <a href="https://twitter.com/ThePacificOcean" a><i class="fa fa-twitter w3-hover-opacity"></i></a>
+  </div>
+  
+</footer>
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+
+</body>
+</html>
