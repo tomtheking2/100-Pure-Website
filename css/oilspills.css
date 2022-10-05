@@ -1,0 +1,251 @@
+@charset "UTF-8";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CSS Variables */
+
+
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--dark);
+}
+
+body {
+    background: rgb(94, 89, 89);
+  
+   margin: 30px 50px;
+   line-height: 1.4;
+}
+
+/* Navbar container */
+.navbar1 {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+    z-index:1;
+    /* - Sticky navbar
+    position: fixed;
+    top: 0;
+    width: 100%;
+    */
+    
+  }
+  
+  /* Links inside the navbar */
+  .navbar1 a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 16px 14px;
+    text-decoration: none;
+  }
+  
+  /* The dropdown container */
+  .dropdown1 {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown1 .dropbtn1 {
+    font-size: 16px; 
+    border: none;
+    outline: none;
+    color: white;
+    padding: 16px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+   
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar1 a:hover, .dropdown1:hover .dropbtn1 {
+    background-color: rgba(165, 156, 156, 0.945);
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content1 {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content1 a {
+    float: none;
+    color: white;
+    padding: 16px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content1 a:hover {
+    background-color: rgba(165, 156, 156, 0.945);
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown1:hover .dropdown-content1 {
+    display: block;
+  }
+
+
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+/* Each div in container */
+  .firstdiv {
+  margin-top: 200px;
+ 
+width: 60%;
+background-color:#ccc ;
+height: 300px;
+margin:0px;
+padding:15px;
+position: relative;
+  }
+  .firstdiv1 {
+    top:0px;
+    left:1100;
+    display:flex;
+width: 40%;
+background: url(../images/Oilspills1.jpg);
+height: 300px;
+padding:0;
+float:left;
+position:relative;
+  }
+
+  .seconddiv {
+    top:0px;
+    display: flex ;
+width: 40%;
+background: url(../images/Oilspills1.jpg);
+height: 300px;
+margin:0px;
+position: relative;
+  }
+  .seconddiv1{
+    top:0px;
+    left:1100;
+    /*display:flex;*/
+width: 60%;
+background-color:rgba(177, 173, 173, 0.989);
+height: 300px;
+padding:15px;
+float:left;
+position:relative;
+  }
+  
+
+  .thirddiv {
+    top:0px;
+  /*  display: flex ; */
+width: 60%;
+background-color:#ccc ;
+height: 300px;
+margin:0px;
+padding:15px;
+position: relative;
+  }
+  .thirddiv1{
+    top:0px;
+    left:1100;
+    display:flex;
+width: 40%;
+background: url(../images/Oilspills1.jpg);
+height: 300px;
+padding:0;
+float:left;
+position:relative;
+  }
+
+
+
+  .fourthdiv {
+    top:0px;
+    display: flex ;
+width: 40%;
+background: url(../images/Oilspills1.jpg);
+height: 300px;
+margin:0px;
+position: relative;
+  }
+  .fourthdiv1{
+    top:0px;
+    left:1100;
+   /* display:flex; */
+width: 60%;
+background-color:rgba(177, 173, 173, 0.989) ;
+height: 300px;
+padding:15px;
+
+float:left;
+position:relative;
+  }
+
+
+  .fifthdiv {
+    top:0px;
+   /* display: flex ; */
+width: 60%;
+background-color:#ccc;
+height: 300px;
+margin:0px;
+position: relative;
+  }
+  .fifthdiv1{
+    top:0px;
+    left:1100;
+    display:flex;
+width: 40%;
+background: url(../images/Oilspills1.jpg);
+height: 300px;
+
+float:left;
+position:relative;
+  }
+/* Container for the divs*/
+.container-for-div{
+  width: 100%;
+  position: relative;
+  display: flex;
+  height: 300px;
+}
+
+
+
+
+
